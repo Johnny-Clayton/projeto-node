@@ -1,4 +1,4 @@
-import { fastify } from 'fastify'
+import fastify from 'fastify';
 import { DatabasePostgress } from './database-postgres.js'
 
 const server = fastify()
